@@ -1,57 +1,70 @@
-# 👋 Hi, I'm Chien Chung Hsu (Tim)  
-🚀 AI & Machine Learning Engineer | Data Scientist  
+# 👋 Hi, I'm Tim 
 
-## 🔹 About Me  
-I'm passionate about **AI, Machine Learning, and Data Science**, with experience in deep learning model optimisation, predictive analytics, and time-series analysis. My background in **Computational Neuroscience, AI, and Engineering** allows me to bridge the gap between advanced AI models and real-world applications.  
-
-- 💡 **Core Interests:** Computer Vision, Time-Series Analysis, AI for Industry & Research  
-- 🔬 **Technical Expertise:** Deep Learning, MLOps, Model Optimisation, AI Deployment  
-- 🏆 **Achievements:** Finalist in IMBD AI & Big Data Competition, Kaggle Self-Driving Challenge  
-- 🌍 **Previously @ TSMC:** AI-driven process optimisation & predictive maintenance  
+🚀 AI Engineer | Specialising in LLMs, RAG, and GenAI Deployment  
+🎯 I design and deliver scalable GenAI systems, from fine-tuning to real-time inference and optimisation.
 
 ---
 
-## 🔹 Skills & Tech Stack  
-### **🚀 Machine Learning & Deep Learning**  
-- TensorFlow, PyTorch, Scikit-learn, OpenCV  
-- Model optimisation: **Hyperparameter tuning, Pruning, Quantisation**  
-- Time-Series Forecasting, Anomaly Detection, Interested in exploring NLP  
+## 🔹 About Me
 
-### **🛠 Data Science & Engineering**  
-- Python, SQL, Pandas, NumPy, Matplotlib, Seaborn  
-- Data Preprocessing, Feature Engineering, Dimensionality Reduction  
-
-### **⚡ MLOps & Deployment**  
-- MLflow, Docker, Flask, Interested in exploring FastAPI  
-- Model deployment & inference on **GPU/TPU/Edge Devices**  
+I build **production-ready AI systems** using open-source LLMs, RAG pipelines, and optimised inference frameworks.  
+My experience spans from real-time Q&A with LangChain to deploying edge models with TFLite and TensorRT, combining research-grade AI with practical deployment.  
+**Passionate about building real-world LLM applications that are fast, explainable, and energy-efficient.**
 
 ---
 
-## 🔹 Notable Projects  
-### **🛣️ Self-Driving Cars Controlled by Deep Learning**  
-🏆 **Kaggle Competition (2nd Place)**  
-- Built a **CNN-based self-driving control system**, trained on 13K images  
-- Optimised real-time inference using **TensorFlow Lite & Edge TPU**  
+## 🏆 Featured Projects
 
-### **📊 AI-Powered Time-Series Classification for Aerospace Manufacturing**  
-- Developed a **1D-CNN for sensor data classification**, achieving **99% accuracy**  
-- Integrated **Grad-CAM for explainability & anomaly detection**  
+### 🔍 [RAG-based Q&A System (LLaMA + GPT-4)](https://github.com/tim3959951/RAG-Llama-GPT)
+- Built a hybrid **RAG pipeline** using quantised LLaMA + GPT-4, LangChain, ChromaDB, FAISS  
+- Real-time deployment via Gradio + Hugging Face Spaces  
+- Retrieval tuning, prompt chaining, and context window management for hallucination mitigation  
+- **Used to support document-grounded assistant workflows in real time**
 
-### **🏥 Classification of Breast Cancer Tumours**  
-- Built ML models (**Logistic Regression, SVM, Random Forest**) achieving **91.89% F1-score**  
-- Applied **PCA, SMOTE, & cross-validation** for model robustness  
+### 💹 [Financial Sentiment Analysis with LLMs](https://github.com/tim3959951/LLMs-Financial-Sentiment-Analysis)
+- Fine-tuned **LLaMA (LoRA)**, **BERT**, and **RoBERTa**, using synonym and back-translation augmentation  
+- Improved test accuracy by **+44%** for financial NLP use cases  
+- **Designed for integration into financial tools requiring reliable sentiment signals**
 
-More projects available [here](https://github.com/tim3959951)  
-
----
-
-## 📫 Connect with Me  
-- 💼 [LinkedIn](https://www.linkedin.com/in/tim-hsu-510612151/)   
+### ⚙️ Inference Optimisation & Edge Deployment
+- Applied **TensorRT 4-bit quantisation**, integrated **vLLM**, and deployed models via **TFLite** on Edge TPU  
+- Achieved **43ms latency**, enabling real-time edge inference  
+- **Supports low-latency GenAI deployments for mobile and IoT scenarios**
 
 ---
 
-## **🛠 What I'm Working On**  
-- Enhancing AI models for real-world applications  
-- Optimising deep learning architectures for efficiency & scalability  
-- Exploring various AI applications, including Finance, Healthcare, and Manufacturing  
+## 🔹 Other Notable Projects
 
+| Project | Highlights |
+|--------|-------------|
+| 🛣️ **[Self-Driving Car (2nd Place, Kaggle)](https://github.com/tim3959951/self-driving-car-ai)** | Built CNN controller trained on 13K images; deployed to **Edge TPU** with TFLite (43ms latency) |
+| 🔍 **[License Plate Recognition (YOLO + OCR)](https://github.com/tim3959951/self-driving-car-ai)** | Combined YOLOv8 + PaddleOCR; achieved **99.5% mAP**, **94.75% OCR accuracy**. Potential input for multi-modal GenAI (OCR → RAG). |
+| 📈 **[Time-Series Classification (Aerospace)](https://github.com/tim3959951/time-series-ai)** | Built a **1D-CNN** with **Grad-CAM**, achieving **99% CV accuracy**. Applicable to time-aware retrieval or memory chunking logic in RAG pipelines. |
+| 🔋 **[Efficient Deep Learning (Green AI)](https://github.com/tim3959951/efficient-deep-learning)** | Investigated **ResNet + Xavier + Pruning**, reducing training FLOPs by **15–30%** while preserving accuracy. Results applicable to **on-device LLM inference** and **energy-aware GenAI deployments**. |
+| 🧪 **[Breast Cancer Classification](https://github.com/tim3959951/breast-cancer-classification)** | Achieved **91.89% F1-score** using XGBoost/RF; applied PCA + SMOTE for model robustness |
+
+---
+
+## 🛠 Tech Stack
+
+- **LLMs & GenAI**: LLaMA, GPT-4, LoRA, BERT, RoBERTa, FinBERT, Mistral, LangChain, ChromaDB, FAISS  
+- **Optimisation & Deployment**: TensorRT, vLLM, TFLite, Gradio, Hugging Face Spaces, Docker  
+- **Data Science & ML**: Python, SQL, PyTorch, TensorFlow, Pandas, Seaborn, Plotly, Tableau  
+- **Other**: Time-Series Forecasting, Explainable AI (Grad-CAM), Edge AI Inference
+
+---
+
+## 🔬 Currently Exploring
+
+- Multi-agent orchestration (CrewAI, LangGraph, memory chaining)  
+- Long-context inference & memory-augmented RAG pipelines  
+- GenAI deployment on edge/mobile with quantised LLMs  
+- **Text-to-Image Generation and multimodal workflows (e.g. LLM → SDXL / DALL·E 3)**  
+- **Currently prototyping a multimodal agent pipeline that generates prompts via LLM, feeds SDXL, and routes outputs via LangGraph agents**
+
+---
+
+## 📫 Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/tim-cch)  
+- [GitHub](https://github.com/tim3959951)
