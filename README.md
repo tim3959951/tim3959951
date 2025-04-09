@@ -16,10 +16,11 @@ My experience spans from real-time Q&A with LangChain to deploying edge models w
 ## 🏆 Featured Projects
 
 ### 🔍 [Smart-RAG_Multi-Agent (GPT4o + Llama)](https://github.com/tim3959951/RAG-Llama-GPT)
-- Built a hybrid **RAG pipeline** using quantised LLaMA + GPT-4, LangChain, ChromaDB, FAISS  
-- Real-time deployment via Gradio + Hugging Face Spaces  
-- Retrieval tuning, prompt chaining, and context window management for hallucination mitigation  
-- **Used to support document-grounded assistant workflows in real time**
+- Built a modular **6-tab RAG+Agentic Assistant** with GPT-4, quantised LLaMA, LangChain, CrewAI, LangGraph & AutoGen  
+- Integrated document Q&A, multi-file summarisation, math reasoning, fuzzy-time weather lookup, and live search agents  
+- Real-time deployment via Gradio + Hugging Face Spaces, using Pinecone, FAISS, and ChromaDB for retrieval
+- Intent detection via embeddings, Chain-of-Thought, fallback via AutoGen   
+- **Supports dynamic tool orchestration, multi-intent reasoning, and hallucination evaluation (DeepEval, LangSmith)**  
 
 ### 💹 [Financial Sentiment Analysis with LLMs](https://github.com/tim3959951/LLMs-Financial-Sentiment-Analysis)
 - Fine-tuned **LLaMA (LoRA)**, **BERT**, and **RoBERTa**, using synonym and back-translation augmentation  
