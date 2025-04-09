@@ -15,7 +15,7 @@ My experience spans from real-time Q&A with LangChain to deploying edge models w
 
 ## 🏆 Featured Projects
 
-### 🔍 [RAG-based Q&A System (LLaMA + GPT-4)](https://github.com/tim3959951/RAG-Llama-GPT)
+### 🔍 [Smart-RAG_Multi-Agent (GPT4o + Llama)](https://github.com/tim3959951/RAG-Llama-GPT)
 - Built a hybrid **RAG pipeline** using quantised LLaMA + GPT-4, LangChain, ChromaDB, FAISS  
 - Real-time deployment via Gradio + Hugging Face Spaces  
 - Retrieval tuning, prompt chaining, and context window management for hallucination mitigation  
