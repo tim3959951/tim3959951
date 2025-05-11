@@ -51,7 +51,7 @@ My experience spans from real-time Q&A with LangChain to deploying edge models w
 - **LLMs & GenAI**: LLaMA, GPT-4, LoRA, BERT, RoBERTa, FinBERT, Mistral, LangChain, ChromaDB, FAISS, Pinecone  
 - **Optimisation & Deployment**: TensorRT, vLLM, TFLite, Gradio, Hugging Face Spaces, Docker  
 - **Data Science & ML**: Python, SQL, PyTorch, TensorFlow, Pandas, Seaborn, Plotly, Tableau  
-- **Other**: Time-Series Forecasting, Explainable AI (Grad-CAM), Edge AI Inference
+- **Other**: Time-Series Anomaly Detection, Explainable AI (Grad-CAM), Edge AI Inference
 
 ---
 
